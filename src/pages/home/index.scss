@@ -1,0 +1,38 @@
+.header_content{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    .tabs-choose{
+        color: #1890ff;
+    }
+    .ant-layout-header{
+        padding: 0;
+        background: #ffffff;
+        border-bottom: 1px solid #dddddd;
+    }
+    .ant-layout-content{
+        margin-top: 1px;
+    }
+    .tabs{
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        .tabs_left{
+            overflow: hidden;
+            width: 50%;
+            float: left;
+            cursor: pointer;
+            border-bottom: 1px solid #dddddd;
+        }
+        .tabs_right{
+            overflow: hidden;
+            width: 50%;
+            cursor: pointer;
+            border-bottom: 1px solid #dddddd;
+        }
+    }    
+}
