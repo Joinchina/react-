@@ -1,0 +1,80 @@
+.detail_box{
+    width: 100%;
+    overflow: hidden;
+    .header{
+        width: 100%;
+        h1{
+            font-size: 16px;
+            line-height: 60px;
+            color: #333;
+            text-align: center;
+        }
+    }
+    .video_box{
+        width: 100%;
+        height: 500px;
+        background-color: #f2f2f2;
+        video{
+            display: block;
+            height: 500px;
+            margin: 0 auto;            
+        }
+    }
+    .describe{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        .left{
+            width: 60%;
+            float: left;
+            padding-left: 100px;
+            h1{
+                font-size: 16px;
+                color: #333333;
+                span{
+                    color: #666666;
+                }
+            }
+        }
+        .right{
+            width: 40%;
+            float: right;
+            padding-right: 100px;
+            h1{
+                font-size: 16px;
+                color: #333333;
+                float: right;
+                line-height:32px;
+                margin-right: 20px;
+            }
+            .ant-btn-primary{
+                float: right;
+            }
+        }
+    }
+    .prompt{
+        width:100%;
+        padding:0 100px;
+        overflow: hidden;
+        h1{
+            font-size: 16px;
+            color: red;
+            span{
+                color: #666666;
+            }
+        }
+    }
+    .img_box{
+        width: 100%;
+        overflow: hidden;
+        padding: 0 100px;
+        h1{
+            font-size: 16px;
+            color: #333;
+        }
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}

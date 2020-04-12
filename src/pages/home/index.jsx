@@ -30,39 +30,48 @@ class Home extends React.Component{
             videoList:[
                 {
                     img:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2703043434,1252590424&fm=26&gp=0.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:1
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=af629d1f6e4f7cb75ba5d62798ece92a&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb912bf96dc19b3b23530ae2259b60eb6cf70083f6680b-H9l0ri_fw658',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:2
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=9d7a380c838ddc10bd628d2cce820562&imgtype=0&src=http%3A%2F%2Fwww.goumin.com%2Fattachments%2Fphoto%2F0%2F0%2F61%2F15705%2F4020605o2.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:3
                 },
                 {
                     img:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2703043434,1252590424&fm=26&gp=0.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:4
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=af629d1f6e4f7cb75ba5d62798ece92a&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb912bf96dc19b3b23530ae2259b60eb6cf70083f6680b-H9l0ri_fw658',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:5
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=9d7a380c838ddc10bd628d2cce820562&imgtype=0&src=http%3A%2F%2Fwww.goumin.com%2Fattachments%2Fphoto%2F0%2F0%2F61%2F15705%2F4020605o2.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:6
                 },
                 {
                     img:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2703043434,1252590424&fm=26&gp=0.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:7
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=af629d1f6e4f7cb75ba5d62798ece92a&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fb912bf96dc19b3b23530ae2259b60eb6cf70083f6680b-H9l0ri_fw658',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:8
                 },
                 {
                     img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586626951024&di=9d7a380c838ddc10bd628d2cce820562&imgtype=0&src=http%3A%2F%2Fwww.goumin.com%2Fattachments%2Fphoto%2F0%2F0%2F61%2F15705%2F4020605o2.jpg',
-                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述'
+                    describe:'描述描述描述描述描述描述描述描述描述描述描述描述',
+                    id:9
                 }
             ]
         }

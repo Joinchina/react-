@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './index.scss'
-import { BrowserRouter as Router,Link  } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 export default class Video extends Component {
     constructor(props){
         super(props)
@@ -17,8 +17,8 @@ export default class Video extends Component {
                     {
                         this.props.state.map((item,index)=>{
                             return(
-                                <Link to={`/detail?id=${item.id}`}>
-                                    <div className="video" key={index}>
+                                <a href={`/detail?id=${item.id}`} key={index} target='_blank' rel="noopener noreferrer">
+                                    <div className="video" >
                                         <div className="img_box">
                                             <img src={item.img} alt=""/>
                                         </div>
@@ -26,7 +26,17 @@ export default class Video extends Component {
                                             <p>{item.describe}</p>
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
+                                // <Link to={`/detail?id=${item.id}`}  key={index}>
+                                //     <div className="video" >
+                                //         <div className="img_box">
+                                //             <img src={item.img} alt=""/>
+                                //         </div>
+                                //         <div className="text_box">
+                                //             <p>{item.describe}</p>
+                                //         </div>
+                                //     </div>
+                                // </Link>
                             )
                         })
                     }                                    

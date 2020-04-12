@@ -13,11 +13,10 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        我是app
+        <Router>
+            <RouterSet/>
+        </Router>
       </div>
-      // <Router>
-      //   <RouterSet/>
-      // </Router>
     )
   }
 } 
